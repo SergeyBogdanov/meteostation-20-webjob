@@ -1,0 +1,15 @@
+{
+  "name": "webjob_stub_webapp",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=10.6",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": ">=4.17.1"
+  }
+}
