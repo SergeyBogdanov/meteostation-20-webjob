@@ -7,7 +7,7 @@ function returnSimpleText(req, res, next) {
 
 const app = express();
 app.get('/test', returnSimpleText);
-app.get('/health', returnSimpleText);
+app.get('/health1', returnSimpleText);
 app.get('/', returnSimpleText);
 app.use((req, res /* , next */) => {
   res.redirect('/');
