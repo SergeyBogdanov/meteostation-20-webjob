@@ -5,8 +5,8 @@ function returnSimpleText(req, res, next) {
     res.send(`This is just a stub site. This message is generated at [${Date.now()}]`);
 }
 
-// Redirect requests to the public subdirectory to the root
 const app = express();
+app.get('/test', returnSimpleText);
 app.get('/', returnSimpleText);
 app.use((req, res /* , next */) => {
   res.redirect('/');
