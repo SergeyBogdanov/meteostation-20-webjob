@@ -7,7 +7,8 @@
     "npm": ">=6.0.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "cd App_Data\\jobs\\continuous\\EventRelay && npm install"
   },
   "dependencies": {
     "express": ">=4.17.1"

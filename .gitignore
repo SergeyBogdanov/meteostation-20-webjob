@@ -5,3 +5,5 @@
 /.vs
 /node_modules
 /package-lock.json
+/App_Data/jobs/continuous/EventRelay/node_modules
+/App_Data/jobs/continuous/EventRelay/package-lock.json

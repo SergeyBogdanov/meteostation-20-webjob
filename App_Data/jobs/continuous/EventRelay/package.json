@@ -1,0 +1,22 @@
+{
+  "name": "webjob",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=10.6",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "node run.js"
+  },
+  "dependencies": {
+    "@azure/event-hubs": ">=5.0.2",
+    "@azure/data-tables": "~13.2.2",
+    "buffer": "^5.5.0",
+    "crypto": "^1.0.1",
+    "express": ">=4.17.1",
+    "minimist": ">=1.2.5",
+    "rhea-promise": "^1.0.0",
+    "superagent": "~9.0.0"
+  }
+}
