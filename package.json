@@ -7,10 +7,16 @@
     "npm": ">=6.0.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "postinstall": "cd App_Data\\jobs\\continuous\\EventRelay && npm install"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": ">=4.17.1"
+    "@azure/event-hubs": ">=5.0.2",
+    "@azure/data-tables": "~13.2.2",
+    "buffer": "^5.5.0",
+    "crypto": "^1.0.1",
+    "express": ">=4.17.1",
+    "minimist": ">=1.2.5",
+    "rhea-promise": "^1.0.0",
+    "superagent": "~9.0.0"
   }
 }
